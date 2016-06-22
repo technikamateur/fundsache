@@ -1,0 +1,11 @@
+/* design-types */
+.left {text-align: left;}
+.right {text-align: right;}
+.center {text-align: center;}
+.block {text-align: justify;}
+/* styles */
+input {font-family: Open Sans, sans-serif; font-size: 20px; color: #22313F; padding: 10px; border: 1px; border-style: solid; border-color: #2980b9; width: 100%;}
+/* divs */
+#titlescreenleft {width: 50%; float: left;}
+#titlescreenright {width: 50%; float: right;}
+#centerborder {width: 10px; margin: auto; border-left: 4px; border-left-style: solid;}
