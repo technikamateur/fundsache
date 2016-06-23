@@ -4,8 +4,48 @@
 .center {text-align: center;}
 .block {text-align: justify;}
 /* styles */
-input {font-family: Open Sans, sans-serif; font-size: 20px; color: #22313F; padding: 10px; border: 1px; border-style: solid; border-color: #2980b9; width: 100%;}
+body {
+/*  background-color: #f2f2f2;*/
+  margin: 0px 0px 0px 0px;
+  border-top: 0.5em;
+  border-top-style: solid;
+  border-top-color: #2c3e50;
+}
+input {
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  color: #22313F;
+  padding: 10px;
+  border: 1px;
+  border-style: solid;
+  border-color: #2980b9;
+  width: 100%;
+}
+/* fonts */
+t1 {
+  font-family: verdana;
+  font-size: 28px;
+  color: #34495e;
+}
 /* divs */
-#titlescreenleft {width: 50%; float: left;}
-#titlescreenright {width: 50%; float: right;}
-#centerborder {width: 10px; margin: auto; border-left: 4px; border-left-style: solid;}
+#title {
+  width: 80%;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px 10px 10px;
+  border-radius: 1em;
+	border: 3px solid;
+  background: #F1F3F4;
+	border-color: #d5d5d5
+}
+#titlescreenleft {
+  width: 50%;
+  height: 500px;
+  float: left;
+}
+#titlescreenright {
+  width: 50%;
+  height: 500px;
+  float: right;
+}
