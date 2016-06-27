@@ -10,6 +10,7 @@ body {
   border-top: 0.5em;
   border-top-style: solid;
   border-top-color: #2c3e50;
+  font-family: sans-serif;
 }
 input {
   font-family: Open Sans, sans-serif;
@@ -23,9 +24,14 @@ input {
 }
 /* fonts */
 t1 {
-  font-family: verdana;
-  font-size: 28px;
+  font-family: verdana, sans-serif;
+  font-size: 1.75em;
   color: #34495e;
+}
+t2 {
+  font-family: verdana, sans-serif;
+  font-size: 1em;
+  padding: 2em;
 }
 /* divs */
 #title {
@@ -33,6 +39,7 @@ t1 {
   margin-top: 2em;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 3em;
   padding: 10px 10px 10px 10px;
   border-radius: 1em;
 	border: 3px solid;
@@ -43,6 +50,7 @@ t1 {
   width: 50%;
   height: 500px;
   float: left;
+
 }
 #titlescreenright {
   width: 50%;
